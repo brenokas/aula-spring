@@ -6,6 +6,8 @@ public class Alimento {
     private Integer quantidade;
     private Double peso;
 
+    public Alimento(){}
+
     public Alimento(String nome, Double preco, Integer quantidade, Double peso) {
         this.nome = nome;
         this.preco = preco;
